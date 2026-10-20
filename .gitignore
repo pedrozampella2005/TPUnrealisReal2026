@@ -1,45 +1,25 @@
-# Unreal Engine project .gitignore
-
-# Build artifacts
+# Unreal Engine
 Binaries/
-/Build/
-
-# Cache and temporary files
 DerivedDataCache/
 Intermediate/
 Saved/
-
-# Baked lighting data (regenerate with Build > Build Lighting)
-*_BuiltData.uasset
-
-# Logs and temp files
-*.log
-*.tmp
-
-# User-specific files
-*.user
-*.suo
-*.userprefs
-*.o
-
-# Visual Studio
-.vs/
 *.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
 *.VC.db
-*.opendb
+*.VC.opendb
 
-# Backup files
-*.bak
-*.swp
+# External Actors (no conviene versionarlos)
+Content/__ExternalActors_/
 
-# Visual Studio Code
+# Configuración de usuario local
 .vscode/
-
-# JetBrains IDE
 .idea/
+*.user
+*.userprefs
 
-# MacOS system files
-.DS_Store
-
-# Windows system files
-Thumbs.db
+# Archivos de backup
+*.bak
+*.tmp
+*.log
